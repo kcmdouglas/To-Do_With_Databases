@@ -1,0 +1,29 @@
+<h1>All Tasks</h1>
+
+<div class="row">
+#foreach($category in $categories)
+  <div class="col-md-1">
+    <h3><a href="/categories/$category.getId()">$category.getName()</a></h3>
+ #foreach ($task in $category.getTasks())
+   <li>$task.getDescription()</li>
+ #end
+ </div>
+#end
+</div>
+
+<h1>Your Entire Dictionary</h1>
+<br>
+<div class="row">
+#foreach($category in $categories)
+  <div class="col-md-6">
+    <h3><a href="/categories/$category.getId()">$category.getName()</a></h3>
+ #foreach ($task in $category.getTasks())
+   <li><h5>$task.getDescription()</h5></li>
+ #end
+ </div>
+#end
+</div>
+<br>
+<br>
+<a href="/" class="btn btn-primary">Go Home</a>
+<a href="/categories" class="btn btn-success">View Categories</a>
