@@ -1,18 +1,17 @@
-#Spark Template
+#To-Do using Databases
 
-#### Basic file structure for Java applications running in Spark
-#### January 5, 2016.
+#### Revisiting a simple Java to-do list using databases
+#### January 18, 2016.
 
 #### By Kassidy Douglas
 
 ## Description
 
-This repository is primarily used for having the necessary basic files needed for Java applications running in Spark, including files for Java classes, JUnit testing, FluentLenium testing, and a README (as demonstrated here).
+This repository is a homework exercise to aid in learning the basics about using databases in relation to Java applications.
 
 ## Setup/Installation Requirements
 
-* Clone this repository.
-* Make sure you have the technologies listed below installed, otherwise testing your apps may prove to be a bit difficult
+
 
 ## Technologies Used
 
